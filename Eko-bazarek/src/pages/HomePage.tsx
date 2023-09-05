@@ -3,8 +3,10 @@ import { Content } from "../components";
 
 export const HomePage = () => {
     const notify = () => toast("Wow so easy!", {type:"error"});
-    return <Content title ="Home | Eko Bazarek">
+    return (
+    <Content title ="Home | Eko Bazarek" loading={true}>
         <button onClick={notify}>Notify!</button>
         Home page
-        </Content>;
+        </Content>
+    );
 };
