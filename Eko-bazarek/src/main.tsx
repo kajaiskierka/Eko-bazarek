@@ -8,7 +8,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import { HomePage, ProductsPage, AboutUsPage, ContactPage } from './pages';
+import { HomePage, ProductsPage, AboutUsPage, ContactPage, TermsPage, PolicyPage } from './pages';
 
 const router = createBrowserRouter([
   {
@@ -30,6 +30,14 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <ContactPage />,
+      },
+      {
+        path: "/terms",
+        element: <TermsPage />,  
+      },
+      {
+        path: "/policy",
+        element: <PolicyPage />,  
       },
     ],
   },

@@ -9,7 +9,7 @@ export const NavItem = (props: NavItemProps) => {
   const { children, to, ...other } = props;
   return (
     <li className="p-4" {...other}>
-      <NavLink to={to}>{children}</NavLink>;
+      <NavLink to={to}>{children}</NavLink>
     </li>
   );
 };

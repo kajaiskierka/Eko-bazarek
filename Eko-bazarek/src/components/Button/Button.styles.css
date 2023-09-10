@@ -1,0 +1,7 @@
+.Button-root{
+    @apply h-(42px) px-6;
+}
+
+.Button-root.contained {
+    @apply bg
+}
