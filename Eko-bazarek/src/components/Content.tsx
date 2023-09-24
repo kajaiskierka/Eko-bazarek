@@ -11,7 +11,7 @@ export const Content = (props: ContentProps) => {
     const {className, loading, children, ...other} = props;
     return (
     <div 
-      className={clsx(className, "relative mt-16 max-w[864px] w-full m-auto")} 
+      className={clsx(className, "relative mt-16 min-h-[100vh] max-w[864px] w-full m-auto")} 
       {...other}>
     
       {loading && (

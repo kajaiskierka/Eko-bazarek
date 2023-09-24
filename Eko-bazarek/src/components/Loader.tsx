@@ -5,5 +5,5 @@ export const Loader = ({
   className,
   ...other
 }: Omit<HtmlHTMLAttributes<HTMLSpanElement>, "children">) => (
-  <span className={clsx(className, "Loader-root")} {...other} />
+  <span className={clsx(className, "Loader")} {...other} />
 );
