@@ -32,8 +32,9 @@ body {
 .Loader {
   color: #46AA42;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
+  align-content: center;
   /* position: center; */
   font-size: 40px;
   font-family: Arial, Helvetica, sans-serif;
